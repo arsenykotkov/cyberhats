@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+
+// Подключаем компонент (так как мы экспортировали его по умолчанию, то { ... } не используются)
+import Fact from './components/Fact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Используем наш компонент */}
+      <Fact />
+    </> 
   );
 }
 
