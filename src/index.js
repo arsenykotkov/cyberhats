@@ -10,6 +10,7 @@ import './index.css';
 import App from './App';
 import About from './About';
 import Contacts from './Contacts';
+import Identica from './Identica';
 import { Menu } from 'antd';
 import items from './menuItems';
 import reportWebVitals from './reportWebVitals';
@@ -23,7 +24,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
-        {/* <Route path="/identica" element={<Identica />} /> */}
+        <Route path="/identica" element={<Identica />} />
       </Routes>
   </BrowserRouter>
   </React.StrictMode>

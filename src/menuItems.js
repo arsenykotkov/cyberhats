@@ -15,6 +15,11 @@ const items = [
         <a href="/contacts">
         Контакты
         </a>
+    )},
+    { label: (
+        <a href="/identica">
+        Айдентика
+        </a>
     )}
 ];
 
