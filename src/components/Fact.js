@@ -1,59 +1,30 @@
 import React, { useEffect, useState } from "react";
+import { Button } from 'antd';
 
 /* БАГ! Почему-то при первой загрузке страницы fetch срабатывает дважды, затем всё работает штатно */
 
-// Компонент, состоящий из кнопки и двух параграфов текста
-function Fact() {
-    // Функция, использующая публичный API сайта с фактами о кошках 
+export default function Fact() {
     function fetchFact() {
-        // Устанавливаем состояние "идёт подгрузка"
         setIsFetching(true);
-            // fetch это стандартная функция JS — https://learn.javascript.ru/fetch?ysclid=l5bkb3u87q34653810
             fetch('https://catfact.ninja/fact')
                 .then(response => response.json())
                 .then(data => {
                     setFact(data);
-                    // Подгрузка завершена, обновляем состояние
                     setIsFetching(false);
                 });
     }
 
-    // Состояния компонента (наподобие переменных, аттрибутов).
-    // const [состояние, функция_которая_это_состояние_изменяет] = useState(дефолтное_значение);
-    const [fact, setFact] = useState([]); // Факт в формате JSON (непосредственно факт, длина сообщения)
-    const [isFetching, setIsFetching] = useState(false); // Идёт ли подгрузка в данный момент, true/false
+    const [fact, setFact] = useState([]); // непосредственно факт, длина сообщения
+    const [isFetching, setIsFetching] = useState(false); // идёт ли подгрузка в данный момент, true/false
 
-    // Это из темы хуков Реакта, пока не разобрался
     useEffect(() => {
         fetchFact()
     }, []);
 
-    // Если идёт подгрузка, то выводим кнопку и сообщение о подгрузке
-    if (isFetching) {
-        return (
-            // <> — Это пустой тег. Он нужен Реакту, если мы используем более одного тега в return().
-            // Можно использовать <div>, если нужно присвоить этому диву, например, класс или
-            // ещё что-то, но в данном случае мне просто нужно вывести несколько тегов.
-            <>
-                <button onClick={fetchFact}>Случайный факт о кошках</button>
-                <p>Loading...</p>
-            </>
-        );
-    }
-
     return (
-        <>
-            {/* Обратите внимание на то, как выглядит комментарий в return(). */}
-            {/* А теперь к кнопке. onClick принимает нашу функцию fetchFact. При нажатии
-                на кнопку произойдёт подгрузка данных, конвертация их в JSON и установка
-                состояния. Параграфы ниже выведут аттрибуты (или как они правильно
-                называются) объекта fact. */}
-            <button onClick={fetchFact}>Случайный факт о кошках</button>
-            <p>{fact.fact} (Количество символов: {fact.length}).</p>
-        </>
+        <div>
+            <Button onClick={fetchFact} style={{marginBottom: '10px'}}>Случайный факт о кошках</Button>
+            {(isFetching) ? <p>Loading...</p> : <p>{fact.fact}</p>}
+        </div>
     );
 }
-
-// Экспортируем функцию Fact по умолчанию, что в других файлах можно было просто написать
-// import Fact from '...';
-export default Fact;
