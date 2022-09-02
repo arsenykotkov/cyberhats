@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/cyberhats/static/css/main.f5e2dfcb.css",
+    "main.js": "/cyberhats/static/js/main.4f1b83cd.js",
+    "static/js/787.9c1542b1.chunk.js": "/cyberhats/static/js/787.9c1542b1.chunk.js",
+    "static/media/Museo Sans Cyrl 700.svg": "/cyberhats/static/media/Museo Sans Cyrl 700.4d7de5238398b72b041f.svg",
+    "static/media/SFUIText-Bold.eot": "/cyberhats/static/media/SFUIText-Bold.4c8fec187b8178744db5.eot",
+    "static/media/SFUIText-Bold.ttf": "/cyberhats/static/media/SFUIText-Bold.15d7dcfa88144e10b357.ttf",
+    "static/media/SFUIText-Light.eot": "/cyberhats/static/media/SFUIText-Light.9ed6fb81e00ad2e8084c.eot",
+    "static/media/SFUIText-Light.ttf": "/cyberhats/static/media/SFUIText-Light.9e3711a1d037520e59e6.ttf",
+    "static/media/SFUIText-Medium.eot": "/cyberhats/static/media/SFUIText-Medium.2a40da20555c5ccf6343.eot",
+    "static/media/SFUIText-Medium.ttf": "/cyberhats/static/media/SFUIText-Medium.09045335227055b64200.ttf",
+    "static/media/SFUIText-Bold.svg": "/cyberhats/static/media/SFUIText-Bold.84964764bedcaf09c239.svg",
+    "static/media/SFUIText-Medium.svg": "/cyberhats/static/media/SFUIText-Medium.991d8a04af41230b1281.svg",
+    "static/media/SFUIText-Light.svg": "/cyberhats/static/media/SFUIText-Light.f147e8e52dab4a416362.svg",
+    "static/media/Museo Sans Cyrl 700.eot": "/cyberhats/static/media/Museo Sans Cyrl 700.02b63027847c2819b9b4.eot",
+    "static/media/Museo Sans Cyrl 700.ttf": "/cyberhats/static/media/Museo Sans Cyrl 700.4e63f06b4aa58983885e.ttf",
+    "static/media/SFUIText-Bold.woff": "/cyberhats/static/media/SFUIText-Bold.7601c304caeab475abfe.woff",
+    "static/media/SFUIText-Medium.woff": "/cyberhats/static/media/SFUIText-Medium.533e9460fb594f34b0c6.woff",
+    "static/media/SFUIText-Light.woff": "/cyberhats/static/media/SFUIText-Light.0cabb576a9f53ab4689d.woff",
+    "static/media/Museo Sans Cyrl 700.woff": "/cyberhats/static/media/Museo Sans Cyrl 700.7223c23c49e626269c67.woff",
+    "index.html": "/cyberhats/index.html",
+    "main.f5e2dfcb.css.map": "/cyberhats/static/css/main.f5e2dfcb.css.map",
+    "main.4f1b83cd.js.map": "/cyberhats/static/js/main.4f1b83cd.js.map",
+    "787.9c1542b1.chunk.js.map": "/cyberhats/static/js/787.9c1542b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5e2dfcb.css",
+    "static/js/main.4f1b83cd.js"
+  ]
+}
