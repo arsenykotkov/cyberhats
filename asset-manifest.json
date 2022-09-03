@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cyberhats/static/css/main.f5e2dfcb.css",
-    "main.js": "/cyberhats/static/js/main.b62089b8.js",
+    "main.js": "/cyberhats/static/js/main.1b354c39.js",
     "static/js/787.9c1542b1.chunk.js": "/cyberhats/static/js/787.9c1542b1.chunk.js",
     "static/media/Museo Sans Cyrl 700.svg": "/cyberhats/static/media/Museo Sans Cyrl 700.4d7de5238398b72b041f.svg",
     "static/media/SFUIText-Bold.eot": "/cyberhats/static/media/SFUIText-Bold.4c8fec187b8178744db5.eot",
@@ -21,11 +21,11 @@
     "static/media/Museo Sans Cyrl 700.woff": "/cyberhats/static/media/Museo Sans Cyrl 700.7223c23c49e626269c67.woff",
     "index.html": "/cyberhats/index.html",
     "main.f5e2dfcb.css.map": "/cyberhats/static/css/main.f5e2dfcb.css.map",
-    "main.b62089b8.js.map": "/cyberhats/static/js/main.b62089b8.js.map",
+    "main.1b354c39.js.map": "/cyberhats/static/js/main.1b354c39.js.map",
     "787.9c1542b1.chunk.js.map": "/cyberhats/static/js/787.9c1542b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5e2dfcb.css",
-    "static/js/main.b62089b8.js"
+    "static/js/main.1b354c39.js"
   ]
 }
